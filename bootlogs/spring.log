@@ -1,0 +1,60 @@
+2020-02-20 15:33:15.413  INFO 14516 --- [main] c.m.MyShoppingAppApplicationTests        : Starting MyShoppingAppApplicationTests on A4SITML24353 with PID 14516 (started by M1039240 in C:\Users\m1039240\Documents\workspace-2\MyShoppingApp)
+2020-02-20 15:33:15.422  INFO 14516 --- [main] c.m.MyShoppingAppApplicationTests        : No active profile set, falling back to default profiles: default
+2020-02-20 15:33:19.320  INFO 14516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-20 15:33:19.581  INFO 14516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 237ms. Found 2 JPA repository interfaces.
+2020-02-20 15:33:20.682  INFO 14516 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a6179b6e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-20 15:33:20.842  INFO 14516 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-02-20 15:33:20.906  INFO 14516 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$17fd66f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-20 15:33:21.865  INFO 14516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-20 15:33:22.533  INFO 14516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-20 15:33:22.840  INFO 14516 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-02-20 15:33:23.039  INFO 14516 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.14.Final}
+2020-02-20 15:33:23.047  INFO 14516 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-02-20 15:33:23.570  INFO 14516 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-02-20 15:33:24.316  INFO 14516 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-20 15:33:27.133 DEBUG 14516 --- [main] org.hibernate.SQL                        : alter table product add constraint FK4dk3kwbu3jpiq1xxbmkasv9n3 foreign key (cart_id) references cart (cart_id)
+2020-02-20 15:33:27.273 DEBUG 14516 --- [main] org.hibernate.SQL                        : alter table user add constraint FKtqa69bib34k2c0jhe7afqsao6 foreign key (cart_id) references cart (cart_id)
+2020-02-20 15:33:27.367  INFO 14516 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-20 15:33:28.344  INFO 14516 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-02-20 15:33:30.221  WARN 14516 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-20 15:33:32.226  INFO 14516 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-20 15:33:33.529  INFO 14516 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-02-20 15:33:33.609  INFO 14516 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-02-20 15:33:33.634  INFO 14516 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-02-20 15:33:34.176  INFO 14516 --- [main] c.m.MyShoppingAppApplicationTests        : Started MyShoppingAppApplicationTests in 19.862 seconds (JVM running for 22.17)
+2020-02-20 15:33:34.562  INFO 14516 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-20 15:33:34.567  INFO 14516 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-20 15:33:34.577  INFO 14516 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-02-20 15:33:34.623  INFO 14516 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-02-20 15:40:08.994  INFO 1736 --- [main] c.m.MyShoppingAppApplicationTests        : Starting MyShoppingAppApplicationTests on A4SITML24353 with PID 1736 (started by M1039240 in C:\Users\m1039240\Documents\workspace-2\MyShoppingApp)
+2020-02-20 15:40:09.035  INFO 1736 --- [main] c.m.MyShoppingAppApplicationTests        : No active profile set, falling back to default profiles: default
+2020-02-20 15:40:11.454  INFO 1736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-20 15:40:11.713  INFO 1736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 233ms. Found 2 JPA repository interfaces.
+2020-02-20 15:40:12.796  INFO 1736 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$48ec5624] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-20 15:40:12.868  INFO 1736 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-02-20 15:40:12.904  INFO 1736 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4549125] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-20 15:40:13.373  INFO 1736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-20 15:40:13.886  INFO 1736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-20 15:40:14.109  INFO 1736 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-02-20 15:40:14.302  INFO 1736 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.14.Final}
+2020-02-20 15:40:14.307  INFO 1736 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-02-20 15:40:14.684  INFO 1736 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-02-20 15:40:15.193  INFO 1736 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-20 15:40:16.884 DEBUG 1736 --- [main] org.hibernate.SQL                        : alter table product add constraint FK4dk3kwbu3jpiq1xxbmkasv9n3 foreign key (cart_id) references cart (cart_id)
+2020-02-20 15:40:16.992 DEBUG 1736 --- [main] org.hibernate.SQL                        : alter table user add constraint FKtqa69bib34k2c0jhe7afqsao6 foreign key (cart_id) references cart (cart_id)
+2020-02-20 15:40:17.098  INFO 1736 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-20 15:40:17.945  INFO 1736 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-02-20 15:40:19.391  WARN 1736 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-20 15:40:21.377  INFO 1736 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-20 15:40:22.284  INFO 1736 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-02-20 15:40:22.334  INFO 1736 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-02-20 15:40:22.361  INFO 1736 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-02-20 15:40:22.904  INFO 1736 --- [main] c.m.MyShoppingAppApplicationTests        : Started MyShoppingAppApplicationTests in 14.745 seconds (JVM running for 16.392)
+2020-02-20 15:40:23.337  INFO 1736 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-20 15:40:23.349  INFO 1736 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-20 15:40:23.358  INFO 1736 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-02-20 15:40:23.468  INFO 1736 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
